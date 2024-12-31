@@ -1,0 +1,75 @@
+﻿<!-- 1. 基础样式资源字典 -->
+<!-- Themes/VisualizerStyles.xaml -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 通用样式 -->
+    <Style x:Key="PropertyLabelStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="Margin" Value="0,0,8,0"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+    <Style x:Key="PropertyValueStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+    </Style>
+
+    <!-- 列表项样式 -->
+    <Style x:Key="ListItemContainerStyle" TargetType="ListViewItem">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+        <Setter Property="Padding" Value="8"/>
+        <Setter Property="BorderThickness" Value="0,0,0,1"/>
+        <Setter Property="BorderBrush" Value="#EEEEEE"/>
+    </Style>
+
+    <!-- 卡片样式 -->
+    <Style x:Key="CardStyle" TargetType="Border">
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="BorderBrush" Value="#DDDDDD"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="Margin" Value="4"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect BlurRadius="4" ShadowDepth="1" 
+                                 Opacity="0.2" Color="Black"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
+
+<!-- 2. 列表视图模板 -->
+<!-- Views/ListViewTemplate.xaml -->
+<UserControl x:Class="Visualizer.Views.ListViewTemplate"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/">
+
+    <ListView ItemsSource="{Binding Items}"
+              SelectedItem="{Binding SelectedItem}"
+              ItemContainerStyle="{StaticResource ListItemContainerStyle}"
+              VirtualizingPanel.IsVirtualizing="True"
+              VirtualizingPanel.VirtualizationMode="Recycling"
+              ScrollViewer.CanContentScroll="True">
+
+        <ListView.View>
+            <GridView x:Name="MainGridView"/>
+        </ListView.View>
+
+    </ListView>
+</UserControl>
+
+<!-- 3. 卡片视图模板 -->
+<!-- Views/CardViewTemplate.xaml -->
+
+
+<!-- 4. 详细视图模板 -->
+<!-- Views/DetailViewTemplate.xaml -->
+
+
+<!-- 5. 主视图容器 -->
+<!-- Views/VisualizerView.xaml -->

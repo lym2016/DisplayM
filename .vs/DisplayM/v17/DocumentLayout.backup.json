@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MyProject\\\u672A\u5206\u7C7B\\DisplayM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{135DB9AC-A515-4BBB-A50C-7E4F09473FE6}|DisplayM.csproj|d:\\myproject\\\u672A\u5206\u7C7B\\displaym\\visualizerstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135DB9AC-A515-4BBB-A50C-7E4F09473FE6}|DisplayM.csproj|solutionrelative:visualizerstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135DB9AC-A515-4BBB-A50C-7E4F09473FE6}|DisplayM.csproj|d:\\myproject\\\u672A\u5206\u7C7B\\displaym\\listviewtemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{135DB9AC-A515-4BBB-A50C-7E4F09473FE6}|DisplayM.csproj|solutionrelative:listviewtemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListViewTemplate.xaml",
+              "DocumentMoniker": "D:\\MyProject\\\u672A\u5206\u7C7B\\DisplayM\\ListViewTemplate.xaml",
+              "RelativeDocumentMoniker": "ListViewTemplate.xaml",
+              "ToolTip": "D:\\MyProject\\\u672A\u5206\u7C7B\\DisplayM\\ListViewTemplate.xaml",
+              "RelativeToolTip": "ListViewTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-31T08:02:25.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VisualizerStyles.xaml",
+              "DocumentMoniker": "D:\\MyProject\\\u672A\u5206\u7C7B\\DisplayM\\VisualizerStyles.xaml",
+              "RelativeDocumentMoniker": "VisualizerStyles.xaml",
+              "ToolTip": "D:\\MyProject\\\u672A\u5206\u7C7B\\DisplayM\\VisualizerStyles.xaml",
+              "RelativeToolTip": "VisualizerStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-31T08:01:56.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

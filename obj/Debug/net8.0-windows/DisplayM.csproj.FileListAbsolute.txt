@@ -1,0 +1,9 @@
+D:\MyProject\未分类\DisplayM\obj\Debug\net8.0-windows\DisplayM.csproj.AssemblyReference.cache
+D:\MyProject\未分类\DisplayM\obj\Debug\net8.0-windows\ListViewTemplate.g.cs
+D:\MyProject\未分类\DisplayM\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\MyProject\未分类\DisplayM\obj\Debug\net8.0-windows\App.g.cs
+D:\MyProject\未分类\DisplayM\obj\Debug\net8.0-windows\DisplayM_MarkupCompile.cache
+D:\MyProject\未分类\DisplayM\obj\Debug\net8.0-windows\DisplayM_MarkupCompile.lref
+D:\MyProject\未分类\DisplayM\obj\Debug\net8.0-windows\DetailViewTemplate.baml
+D:\MyProject\未分类\DisplayM\obj\Debug\net8.0-windows\ListViewTemplate.baml
+D:\MyProject\未分类\DisplayM\obj\Debug\net8.0-windows\DetailViewTemplate.g.cs
